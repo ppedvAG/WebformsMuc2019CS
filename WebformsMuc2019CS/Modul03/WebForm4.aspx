@@ -34,6 +34,15 @@
             <%=CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i) %> <br />
 
               <%  } %>
+
+             <%-- <%for (int i = 1; i <= 12; i++)
+                {%>
+            <asp:TextBox ID="TextBox1" runat="server" 
+                Text="<%# Bind( CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i)) %>">
+                </asp:TextBox>
+              <br />
+
+              <%  } %>--%>
         </div>
     </form>
 
