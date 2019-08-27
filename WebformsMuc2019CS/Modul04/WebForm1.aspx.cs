@@ -12,13 +12,16 @@ namespace WebformsMuc2019CS.Modul04
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var monate = new string[11];
+            var monate = new string[12];
             for (int i = 0; i <= 11; i++)
             {
-                monate[0] = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i + 1);
-                DropDownList1.Items.Add(monate[0]);
+                monate[i] = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i + 1);
+                DropDownList1.Items.Add(monate[i]);
             }
-            
+         
+            DropDownList2.DataSource = monate;
+            DropDownList2.DataBind();
+
         }
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
@@ -28,14 +31,7 @@ namespace WebformsMuc2019CS.Modul04
 
         protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var monate = new string[11];
-            for (int i = 0; i <= 11; i++)
-            {
-                monate[0] = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(i + 1);
-              
-            }
-            DropDownList2.DataSource = monate;
-            DropDownList2.DataBind();
+           
         }
     }
 }
