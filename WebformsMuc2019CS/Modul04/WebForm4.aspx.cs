@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -16,7 +17,14 @@ namespace WebformsMuc2019CS.Modul04
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            if (FileUpload1.HasFile)
+            {
+                var fname =Path.GetFileName( FileUpload1.PostedFile.FileName);
 
+                FileUpload1.PostedFile.SaveAs(Server.MapPath(@"~\imgs\") +
+                    fname);
+                Image1.ImageUrl = "/imgs/" + fname;
+            }
         }
     }
 }
