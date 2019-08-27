@@ -18,6 +18,13 @@
             </asp:DropDownList>
             <br />
            sie haben gewählt: <asp:Label ID="Label1" runat="server" Text="auswahl leer"></asp:Label>
+        <hr />
+            <asp:DropDownList ID="DropDownList2" runat="server"  
+                AutoPostBack="True" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
+                 <asp:ListItem Value="leer">auswählen</asp:ListItem>
+            </asp:DropDownList>
+               sie haben gewählt: <asp:Label ID="Label2" runat="server" Text="auswahl leer"></asp:Label>
+
         </div>
     </form>
 </body>
