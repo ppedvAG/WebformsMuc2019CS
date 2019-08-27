@@ -10,13 +10,16 @@ namespace WebformsMuc2019CS.Modul04
 {
     public partial class WebForm3 : System.Web.UI.Page
     {
+
         public string[] ToDoListe { get; set; }
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Hannes_Load(object sender, EventArgs e) 
         {
             if (IsPostBack==false)
             {
                 ladeTodos();
+          
             }
+
           
         }
 
@@ -29,6 +32,12 @@ namespace WebformsMuc2019CS.Modul04
         private void ladeTodos()
         {
             ToDoListe = File.ReadAllLines(Server.MapPath(@"~\app_data\todoitems.txt"));
+        }
+
+        protected override void OnInit(EventArgs e)
+        {
+            this.Load += new System.EventHandler(Hannes_Load);
+            base.OnInit(e);
         }
     }
 }
