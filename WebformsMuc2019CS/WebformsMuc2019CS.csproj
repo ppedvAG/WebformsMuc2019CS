@@ -133,6 +133,7 @@
     <Content Include="Modul04\WebForm2.aspx" />
     <Content Include="Modul04\WebForm3.aspx" />
     <Content Include="Modul04\WebForm4.aspx" />
+    <Content Include="Modul05\Bootstrap.aspx" />
     <Content Include="Modul05\flyingtoaster.gif" />
     <Content Include="Modul05\Resp.aspx" />
     <Content Include="Modul05\SetCookie.aspx" />
@@ -326,6 +327,13 @@
     </Compile>
     <Compile Include="Modul04\WebForm4.aspx.designer.cs">
       <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modul05\Bootstrap.aspx.cs">
+      <DependentUpon>Bootstrap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modul05\Bootstrap.aspx.designer.cs">
+      <DependentUpon>Bootstrap.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modul05\Resp.aspx.cs">
       <DependentUpon>Resp.aspx</DependentUpon>
