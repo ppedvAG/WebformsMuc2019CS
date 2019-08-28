@@ -135,6 +135,7 @@
     <Content Include="Modul04\WebForm4.aspx" />
     <Content Include="Modul05\flyingtoaster.gif" />
     <Content Include="Modul05\Resp.aspx" />
+    <Content Include="Modul05\SetCookie.aspx" />
     <Content Include="Modul05\UserCounter.aspx" />
     <Content Include="Modul05\WebForm1.aspx" />
     <Content Include="Modul05\WebForm2.aspx" />
@@ -334,6 +335,13 @@
     </Compile>
     <Compile Include="Modul05\Resp.aspx.designer.cs">
       <DependentUpon>Resp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modul05\SetCookie.aspx.cs">
+      <DependentUpon>SetCookie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modul05\SetCookie.aspx.designer.cs">
+      <DependentUpon>SetCookie.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modul05\UserCounter.aspx.cs">
       <DependentUpon>UserCounter.aspx</DependentUpon>

@@ -11,7 +11,8 @@ namespace WebformsMuc2019CS.Modul05
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Session["user"] = Application["User"];
+           
         }
     }
 }
