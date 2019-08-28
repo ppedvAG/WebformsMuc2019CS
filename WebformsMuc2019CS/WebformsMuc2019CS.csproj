@@ -128,6 +128,7 @@
     <Content Include="Modul03\WebForm2.aspx" />
     <Content Include="Modul03\WebForm3.aspx" />
     <Content Include="Modul03\WebForm4.aspx" />
+    <Content Include="Modul04\MailSenden.aspx" />
     <Content Include="Modul04\WebForm1.aspx" />
     <Content Include="Modul04\WebForm2.aspx" />
     <Content Include="Modul04\WebForm3.aspx" />
@@ -286,6 +287,13 @@
     </Compile>
     <Compile Include="Modul03\WebForm4.aspx.designer.cs">
       <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modul04\MailSenden.aspx.cs">
+      <DependentUpon>MailSenden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modul04\MailSenden.aspx.designer.cs">
+      <DependentUpon>MailSenden.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modul04\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
