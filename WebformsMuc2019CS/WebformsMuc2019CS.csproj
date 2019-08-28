@@ -147,6 +147,7 @@
     <Content Include="Modul07\default.aspx" />
     <Content Include="Modul07\WebForm1.aspx" />
     <Content Include="Modul07\WebUserControl1.ascx" />
+    <Content Include="Modul08\editcustomer.aspx" />
     <Content Include="Modul08\WebForm1.aspx" />
     <Content Include="Modul08\WebForm2.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -399,6 +400,13 @@
     </Compile>
     <Compile Include="Modul07\WebUserControl1.ascx.designer.cs">
       <DependentUpon>WebUserControl1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modul08\editcustomer.aspx.cs">
+      <DependentUpon>editcustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modul08\editcustomer.aspx.designer.cs">
+      <DependentUpon>editcustomer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modul08\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

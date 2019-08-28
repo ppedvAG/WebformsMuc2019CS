@@ -8,11 +8,12 @@
     <div class="list-group">
         <div class="list-group-item active">
             <h3>Kunden</h3>
-        </div>
+        </div>   <%--        <a href='<%#FriendlyUrl.Href("~/Modul08/EditCustomer",Eval("CustomerID")) %>' --%>
         <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
 
             <ItemTemplate>
-                <a href='<%#FriendlyUrl.Href("~/Modul08/EditCustomer",Eval("CustomerID")) %>' 
+      
+                <a href='/Modul08/EditCustomer?id=<%# Eval("CustomerID") %>' 
                     class="list-group-item list-group-item-action">
                     <h3><%#Eval("CompanyName") %></h3>
                     <p><%#Eval("ContactName") %>, <%#Eval("City") %></p>
