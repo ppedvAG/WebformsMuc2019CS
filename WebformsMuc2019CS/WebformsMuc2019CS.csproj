@@ -106,6 +106,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="App_Data\Northwind.mdf" />
+    <Content Include="App_Data\Northwind_log.ldf">
+      <DependentUpon>Northwind.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\TextFile1.txt" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
