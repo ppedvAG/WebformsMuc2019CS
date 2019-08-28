@@ -9,7 +9,7 @@
                     <span class="badge badge-primary float-right">
                         <%#Eval("Anzahl") %></span>
                     <ul>
-                        <asp:Repeater ID="rptKunden" runat="server">
+                        <asp:Repeater ID="rptKunden" runat="server" 
                             <ItemTemplate>
                                 <li> <%# Container.DataItem?.ToString() ?? string.Empty%></li>
                             </ItemTemplate>

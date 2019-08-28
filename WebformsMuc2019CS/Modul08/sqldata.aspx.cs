@@ -73,5 +73,6 @@ namespace WebformsMuc2019CS.Modul08
     {
         public string City { get; set; }
         public int Anzahl { get; set; }
+       
     }
 }
