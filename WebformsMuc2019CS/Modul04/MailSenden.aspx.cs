@@ -21,7 +21,7 @@ namespace WebformsMuc2019CS.Modul04
 
             client.Send("postmaster@ppedv.de", "service@ppedv.de",
                 "Feedback von Website", TextBox1.Text);
-
+            btnSend.Enabled = false;
         }
     }
 }

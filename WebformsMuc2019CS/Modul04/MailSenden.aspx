@@ -15,6 +15,7 @@
 
             </asp:TextBox>
             <asp:Button ID="btnSend" runat="server" Text="send"  OnClick="btnSend_Click"/>
+            <div>dankesmeldung </div>
         </div>
     </form>
 </body>
