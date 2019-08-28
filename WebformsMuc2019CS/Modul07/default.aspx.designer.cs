@@ -7,27 +7,27 @@
 // </automatisch generiert>
 //------------------------------------------------------------------------------
 
-namespace WebformsMuc2019CS {
+namespace WebformsMuc2019CS.Modul07 {
     
     
-    public partial class SiteMaster {
+    public partial class _default {
         
         /// <summary>
-        /// MainContent-Steuerelement
+        /// TextBox1-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
-        /// ScriptPlaceHolder1-Steuerelement
+        /// Button1-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ScriptPlaceHolder1;
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }

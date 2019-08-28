@@ -67,7 +67,9 @@
                 <p>&copy; <%: DateTime.Now.Year %> - Meine ASP.NET-Anwendung</p>
             </footer>
         </div>
-
+        <asp:ContentPlaceHolder ID="ScriptPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
     </form>
 </body>
 </html>
