@@ -1,0 +1,2 @@
+﻿<%@ Page  %>
+<%=DateTime.Now.ToLongTimeString() %>

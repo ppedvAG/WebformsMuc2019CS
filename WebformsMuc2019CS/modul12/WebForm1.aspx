@@ -19,7 +19,7 @@
                 </ContentTemplate>
                 
             </asp:UpdatePanel>
-            <asp:UpdateProgress ID="UpdateProgress1" runat="server">
+            <asp:UpdateProgress ID="UpdateProgress1" runat="server" >
                 <ProgressTemplate>
                     <img src="spinner.gif" />  </ProgressTemplate>
          
