@@ -160,6 +160,7 @@
     <Content Include="Modul08\sqldata.aspx" />
     <Content Include="Modul08\WebForm1.aspx" />
     <Content Include="Modul08\WebForm2.aspx" />
+    <Content Include="Modul09\KundenListeOrders.aspx" />
     <Content Include="Modul09\KundenListe.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -449,6 +450,13 @@
     </Compile>
     <Compile Include="Modul09\Customers.cs" />
     <Compile Include="Modul09\EFNorthwind.cs" />
+    <Compile Include="Modul09\KundenListeOrders.aspx.cs">
+      <DependentUpon>KundenListeOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modul09\KundenListeOrders.aspx.designer.cs">
+      <DependentUpon>KundenListeOrders.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Modul09\KundenListe.aspx.cs">
       <DependentUpon>KundenListe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
