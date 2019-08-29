@@ -166,6 +166,8 @@
     <Content Include="Modul10\HtmlPage1.html" />
     <Content Include="Modul10\WebForm1.aspx" />
     <Content Include="Modul11\WebForm1.aspx" />
+    <Content Include="modul12\spinner.gif" />
+    <Content Include="modul12\WebForm1.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -488,6 +490,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Modul11\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modul12\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modul12\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
