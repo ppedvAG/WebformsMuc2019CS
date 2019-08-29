@@ -144,6 +144,7 @@
     <Content Include="Modul05\UserCounter.aspx" />
     <Content Include="Modul05\WebForm1.aspx" />
     <Content Include="Modul05\WebForm2.aspx" />
+    <Content Include="Modul08\DataDatableAlt.aspx" />
     <Content Include="Modul07\default.aspx" />
     <Content Include="Modul07\WebForm1.aspx" />
     <Content Include="Modul07\WebUserControl1.ascx" />
@@ -380,6 +381,13 @@
     </Compile>
     <Compile Include="Modul05\WebForm2.aspx.designer.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modul08\DataDatableAlt.aspx.cs">
+      <DependentUpon>DataDatableAlt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modul08\DataDatableAlt.aspx.designer.cs">
+      <DependentUpon>DataDatableAlt.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modul07\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
