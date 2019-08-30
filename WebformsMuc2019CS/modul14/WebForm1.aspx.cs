@@ -15,6 +15,7 @@ namespace WebformsMuc2019CS.modul14
         }
         public static string immeraktuell(HttpContext ctx)
         {
+            ctx.Response.Write("Zeit:");
             return DateTime.Now.ToString();
         }
     }

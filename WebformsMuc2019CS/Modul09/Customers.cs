@@ -5,6 +5,8 @@ namespace WebformsMuc2019CS.Modul09
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+    using System.Runtime.Serialization;
+    using System.Xml.Serialization;
 
     public partial class Customers
     {
@@ -50,6 +52,8 @@ namespace WebformsMuc2019CS.Modul09
         public string Fax { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        [XmlIgnore]
+        [IgnoreDataMember]
         public virtual ICollection<Orders> Orders { get; set; }
     }
 }

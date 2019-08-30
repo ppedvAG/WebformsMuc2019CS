@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="label1">    </div>
+    <ul id="ul1"></ul>
+    <button onclick="getZeit()" type="button">ASMX Service</button>
+
+    <script>
+        function getZeit() {
+            $.ajax({
+                url: '/Modul15/WebService1.asmx/GetCustomers',
+                contentType: "application/json",
+                dataType: "json",
+                method:'GET',
+                success: function (result) {
+
+                    $.each(result.d, function (i, item) {
+                       $("#ul1").innerHTML = '<li>' + item.CompanyName +'</li>';
+                    });
+              
+                }
+            });
+
+        }
+
+    </script>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+</body>
+</html>
