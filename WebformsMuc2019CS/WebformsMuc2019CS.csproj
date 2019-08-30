@@ -204,6 +204,16 @@
     <Content Include="Modul15\chat.html" />
     <Content Include="Modul15\HtmlPage1.html" />
     <Content Include="Modul15\WebService1.asmx" />
+    <Content Include="modul16\bilder\IMG_3664.JPG" />
+    <Content Include="modul16\bilder\IMG_3665.JPG" />
+    <Content Include="modul16\bilder\IMG_3666.JPG" />
+    <Content Include="modul16\bilder\IMG_3667.JPG" />
+    <Content Include="modul16\bilder\IMG_3668.JPG" />
+    <Content Include="modul16\bilder\IMG_3669.JPG" />
+    <Content Include="modul16\bilder\IMG_3670.JPG" />
+    <Content Include="modul16\bilder\IMG_3671.JPG" />
+    <Content Include="modul16\bilder\IMG_3672.JPG" />
+    <Content Include="modul16\WebForm1.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -229,6 +239,7 @@
     <Content Include="Scripts\jquery.signalR-2.4.1.js" />
     <Content Include="Scripts\jquery.signalR-2.4.1.min.js" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="modul16\Thumbnail.ashx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -579,6 +590,16 @@
     <Compile Include="Modul15\WebService1.asmx.cs">
       <DependentUpon>WebService1.asmx</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="modul16\Thumbnail.ashx.cs">
+      <DependentUpon>Thumbnail.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="modul16\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modul16\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
