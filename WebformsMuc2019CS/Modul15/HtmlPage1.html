@@ -17,9 +17,10 @@
                 dataType: "json",
                 method:'GET',
                 success: function (result) {
-
+                    console.log(result);
                     $.each(result.d, function (i, item) {
-                       $("#ul1").innerHTML = '<li>' + item.CompanyName +'</li>';
+                          console.log(item.CompanyName);
+                       $('#ul1').append( '<li>' + item.CompanyName +'</li>');
                     });
               
                 }
