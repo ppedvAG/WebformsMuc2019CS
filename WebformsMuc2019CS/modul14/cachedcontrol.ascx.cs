@@ -7,15 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace WebformsMuc2019CS.modul14
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class cachedcontrol : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-        public static string immeraktuell(HttpContext ctx)
-        {
-            return DateTime.Now.ToString();
-        }
+     
     }
 }

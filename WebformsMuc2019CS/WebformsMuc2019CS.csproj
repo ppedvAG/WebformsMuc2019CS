@@ -171,6 +171,7 @@
     <Content Include="modul12\WebForm2.aspx" />
     <Content Include="modul12\zeit.aspx" />
     <Content Include="modul14\cachedb.aspx" />
+    <Content Include="modul14\cachedcontrol.ascx" />
     <Content Include="modul14\WebForm1.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -524,6 +525,13 @@
     </Compile>
     <Compile Include="modul14\cachedb.aspx.designer.cs">
       <DependentUpon>cachedb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modul14\cachedcontrol.ascx.cs">
+      <DependentUpon>cachedcontrol.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modul14\cachedcontrol.ascx.designer.cs">
+      <DependentUpon>cachedcontrol.ascx</DependentUpon>
     </Compile>
     <Compile Include="modul14\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
