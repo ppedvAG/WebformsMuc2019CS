@@ -17,7 +17,7 @@ namespace WebformsMuc2019CS.modul14
             {
                 var db = new EFNorthwind();
                 var q = db.Customers.ToList();
-                Cache.Insert("db", q,null, DateTime.Now.AddDays(1),new TimeSpan(1,0,0),System.Web.Caching.CacheItemPriority.);
+                Cache.Insert("db", q,null, DateTime.Now.AddDays(1),new TimeSpan(1,0,0),System.Web.Caching.CacheItemPriority.Low,null);
                 daten = q;
             }
             else
